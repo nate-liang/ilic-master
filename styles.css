@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Nunito+Sans:wght@200;300;400&display=swap');
+
+/*
+  Futura PT is loaded via system font stack with Nunito Sans as the closest
+  Google Fonts fallback (geometric, thin, similar proportions).
+  On machines with Futura or Futura PT installed, it will render natively.
+*/
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ivy: #1A4731;
+  --ivy-mid: #2C6147;
+  --ivy-light: #E8F0EB;
+  --gold: #C9A84C;
+  --gold-dim: rgba(201,168,76,0.35);
+  --gold-light: #F7F0E0;
+  --cream: #FAF8F4;
+  --dark: #111111;
+  --muted: #5a5a5a;
+  --border: rgba(26,71,49,0.13);
+  --serif: 'Playfair Display', Georgia, serif;
+  --sans: 'Futura PT', 'Futura', 'Century Gothic', 'Nunito Sans', 'Trebuchet MS', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--sans);
+  font-weight: 300;
+  background: var(--cream);
+  color: var(--dark);
+  line-height: 1.7;
+  letter-spacing: 0.025em;
+}
+
+/* NAV */
+nav#ilic-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--ivy);
+  padding: 0 3rem;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 56px;
+  border-bottom: 1px solid rgba(201,168,76,0.2);
+}
+.nav-logo { font-family: var(--serif); color: #fff; font-size: 0.95rem; font-weight: 600; letter-spacing: 0.08em; }
+.nav-logo span { color: var(--gold); }
+nav#ilic-nav ul { list-style: none; display: flex; gap: 1.75rem; }
+nav#ilic-nav ul li a {
+  color: rgba(255,255,255,0.65); text-decoration: none;
+  font-family: var(--sans); font-weight: 300; font-size: 0.64rem;
+  letter-spacing: 0.18em; text-transform: uppercase; transition: color 0.2s;
+}
+nav#ilic-nav ul li a:hover { color: var(--gold); }
+
+/* SHARED */
+section { padding: 6rem 2rem; }
+.container { max-width: 1080px; margin: 0 auto; }
+
+.section-label {
+  font-family: var(--sans); font-weight: 300; font-size: 0.62rem;
+  text-transform: uppercase; letter-spacing: 0.26em; color: var(--ivy-mid); margin-bottom: 0.75rem;
+}
+.section-title {
+  font-family: var(--serif); font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700; color: var(--ivy); line-height: 1.12; margin-bottom: 1rem;
+}
+.section-body {
+  font-family: var(--sans); font-size: 0.87rem; color: var(--muted);
+  max-width: 620px; font-weight: 300; line-height: 1.9; letter-spacing: 0.03em;
+}
+.divider-gold { width: 40px; height: 1.5px; background: var(--gold); margin: 1.5rem 0; }
+
+/* ABOUT */
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; margin-top: 3rem; }
+.about-cards { display: flex; flex-direction: column; gap: 1rem; }
+.about-card {
+  background: #fff; border: 1px solid var(--border); border-radius: 10px;
+  padding: 1.2rem 1.4rem; display: flex; gap: 1rem; align-items: flex-start;
+}
+.about-card-icon {
+  width: 34px; height: 34px; border-radius: 7px; background: var(--ivy-light);
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.about-card-icon svg { width: 16px; height: 16px; stroke: var(--ivy); fill: none; stroke-width: 1.6; }
+.about-card h4 { font-family: var(--sans); font-size: 0.76rem; font-weight: 400; letter-spacing: 0.1em; color: var(--dark); margin-bottom: 0.25rem; text-transform: uppercase; }
+.about-card p { font-family: var(--sans); font-size: 0.76rem; color: var(--muted); font-weight: 300; line-height: 1.6; }
+
+/* ELIGIBILITY */
+.eligibility-section { background: #fff; }
+.eligibility-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-top: 3rem; align-items: start; }
+.eligibility-rules { display: flex; flex-direction: column; gap: 1rem; }
+.eligibility-rule {
+  display: flex; gap: 1.25rem; align-items: flex-start;
+  padding: 1.25rem 1.5rem; background: var(--cream); border: 1px solid var(--border); border-radius: 10px;
+}
+.rule-num { font-family: var(--serif); font-size: 1.4rem; font-weight: 400; color: var(--gold); line-height: 1; min-width: 26px; }
+.rule-text { font-family: var(--sans); font-size: 0.8rem; font-weight: 300; color: var(--muted); line-height: 1.65; padding-top: 0.1rem; }
+.rule-text strong { font-weight: 400; color: var(--dark); letter-spacing: 0.04em; }
+
+/* ROUNDS */
+.how-section { background: var(--ivy); }
+.how-section .section-title { color: #fff; }
+.how-section .section-label { color: rgba(201,168,76,0.85); }
+.how-section .section-body { color: rgba(255,255,255,0.7); }
+
+.rounds-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 3rem; }
+
+.round-card {
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(201,168,76,0.25);
+  border-radius: 12px; padding: 1.75rem 1.5rem 1.4rem;
+  display: flex; flex-direction: column;
+}
+.round-num {
+  font-family: var(--sans); font-weight: 300; font-size: 0.6rem;
+  text-transform: uppercase; letter-spacing: 0.24em; color: var(--gold); margin-bottom: 0.5rem;
+}
+.round-title { font-family: var(--serif); font-size: 1.1rem; color: #fff; margin-bottom: 1.25rem; font-weight: 600; }
+
+.round-details { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; flex: 1; min-height: 90px; }
+.round-details li {
+  font-family: var(--sans); font-size: 0.78rem; color: rgba(255,255,255,0.8);
+  font-weight: 300; padding-left: 1rem; position: relative; line-height: 1.5; letter-spacing: 0.02em;
+}
+.round-details li::before { content: '–'; position: absolute; left: 0; color: var(--gold); opacity: 0.7; }
+
+.round-advance {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(201,168,76,0.2);
+  font-family: var(--sans); font-weight: 300;
+  font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.16em; color: var(--gold);
+}
+
+.criteria-row { display: flex; flex-wrap: wrap; gap: 0.65rem; margin-top: 2.5rem; align-items: center; }
+.criteria-tag {
+  font-family: var(--sans); font-weight: 300; font-size: 0.62rem;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: rgba(255,255,255,0.75); border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 2rem; padding: 0.35rem 1rem;
+}
+
+/* EVENT */
+.event-section { background: var(--gold-light); }
+.days-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 3rem; }
+.day-card { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 2rem; }
+.day-label { font-family: var(--sans); font-weight: 300; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.22em; color: var(--ivy-mid); margin-bottom: 0.35rem; }
+.day-title { font-family: var(--serif); font-size: 1.15rem; color: var(--ivy); margin-bottom: 1.5rem; font-weight: 600; }
+.schedule-items { display: flex; flex-direction: column; gap: 0.85rem; }
+.schedule-item { display: flex; gap: 1rem; align-items: flex-start; }
+.schedule-time { font-family: var(--sans); font-weight: 300; font-size: 0.66rem; color: var(--gold); min-width: 72px; letter-spacing: 0.06em; padding-top: 0.15rem; }
+.schedule-desc { font-family: var(--sans); font-size: 0.8rem; color: var(--muted); font-weight: 300; line-height: 1.5; letter-spacing: 0.02em; }
+
+/* PRIZES */
+.prize-grid { display: grid; grid-template-columns: 2fr 1.5fr 1fr; gap: 1.25rem; margin-top: 3rem; align-items: end; }
+.prize-card { background: #fff; border-radius: 14px; padding: 2rem 1.5rem; text-align: center; border: 1px solid var(--border); position: relative; }
+.prize-card.first { border-color: var(--gold); border-width: 1.5px; }
+.prize-place { font-family: var(--sans); font-weight: 300; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); margin-bottom: 0.6rem; }
+.prize-amount { font-family: var(--serif); font-size: 2.2rem; color: var(--ivy); font-weight: 700; line-height: 1; margin-bottom: 0.4rem; }
+.prize-card.first .prize-amount { color: var(--gold); font-size: 2.8rem; }
+.prize-badge {
+  position: absolute; top: -11px; left: 50%; transform: translateX(-50%);
+  background: var(--gold); color: var(--ivy);
+  font-family: var(--sans); font-weight: 400; font-size: 0.58rem;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  padding: 0.25rem 0.85rem; border-radius: 2rem; white-space: nowrap;
+}
+.prize-sub { font-family: var(--sans); font-size: 0.74rem; color: var(--muted); font-weight: 300; letter-spacing: 0.04em; }
+.prize-total { margin-top: 2rem; text-align: center; font-family: var(--sans); font-weight: 300; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--muted); }
+.prize-total span { color: var(--ivy); font-weight: 400; }
+
+/* SPONSORS */
+.sponsor-tiers { margin-top: 3rem; display: flex; flex-direction: column; gap: 3rem; }
+.sponsor-tier-label {
+  font-family: var(--sans); font-weight: 300; font-size: 0.6rem;
+  text-transform: uppercase; letter-spacing: 0.24em; color: var(--muted);
+  margin-bottom: 1.25rem; display: flex; align-items: center; gap: 1rem;
+}
+.sponsor-tier-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+.sponsor-logo-grid { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+
+.sponsor-logo-box {
+  background: #fff; border: 1px solid var(--border); border-radius: 10px;
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+  transition: border-color 0.2s;
+}
+.sponsor-logo-box:hover { border-color: var(--gold-dim); }
+.sponsor-logo-box img { max-width: 100%; max-height: 100%; object-fit: contain; padding: 1rem 1.5rem; }
+
+.sponsor-title  { width: 260px; height: 100px; border-color: var(--gold); border-width: 1.5px; }
+.sponsor-gold   { width: 200px; height: 80px; border-color: rgba(201,168,76,0.35); }
+.sponsor-silver { width: 160px; height: 68px; }
+.sponsor-event  { width: 130px; height: 56px; }
+
+.sponsor-logo-box.placeholder { background: var(--cream); border-style: dashed; }
+.sponsor-logo-box.placeholder::after {
+  font-family: var(--sans); font-weight: 300; font-size: 0.62rem;
+  letter-spacing: 0.14em; text-transform: uppercase; color: rgba(90,90,90,0.35);
+  content: attr(data-label);
+}
+
+.sponsor-involvement { margin-top: 3rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.involvement-item { display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: var(--cream); border: 1px solid var(--border); border-radius: 10px; }
+.involvement-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); margin-top: 7px; flex-shrink: 0; }
+.involvement-title { font-family: var(--sans); font-size: 0.78rem; font-weight: 400; letter-spacing: 0.06em; color: var(--dark); margin-bottom: 0.2rem; }
+.involvement-desc { font-family: var(--sans); font-size: 0.73rem; color: var(--muted); font-weight: 300; letter-spacing: 0.02em; }
+
+/* SCHOOLS */
+.schools-section { background: var(--ivy-light); }
+.schools-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 3rem; }
+.school-card {
+  background: #fff; border: 1px solid var(--border); border-radius: 10px;
+  padding: 1.75rem 1rem; text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: 0.75rem;
+}
+.school-logo { width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; }
+.school-logo img { width: 100%; height: 100%; object-fit: contain; }
+.school-name { font-family: var(--sans); font-size: 0.76rem; font-weight: 300; letter-spacing: 0.06em; color: var(--dark); }
+.school-note { font-family: var(--sans); font-size: 0.62rem; color: var(--ivy-mid); font-weight: 300; letter-spacing: 0.06em; }
+
+/* TEAM */
+.team-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.25rem; margin-top: 3rem; }
+.team-card { background: #fff; border-radius: 12px; padding: 1.75rem 1rem 1.5rem; text-align: center; border: 1px solid var(--border); }
+
+.team-photo {
+  width: 64px; height: 64px; border-radius: 50%; background: var(--ivy);
+  margin: 0 auto 1rem; overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif); color: rgba(255,255,255,0.8); font-size: 1rem;
+}
+/* When an <img> is placed inside .team-photo it fills the circle */
+.team-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.team-name { font-family: var(--sans); font-size: 0.82rem; font-weight: 400; letter-spacing: 0.04em; color: var(--dark); }
+
+/* Single-line title for all cards — shrinks font slightly so long titles don't wrap */
+.team-title {
+  font-family: var(--sans); font-weight: 300;
+  font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--ivy-mid); margin-top: 0.3rem;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.team-email { font-family: var(--sans); font-size: 0.62rem; color: var(--muted); margin-top: 0.4rem; font-weight: 300; letter-spacing: 0.01em; }
+
+/* CONTACT */
+.contact-section { background: var(--ivy); text-align: center; padding: 5rem 2rem; }
+.contact-section .section-title { color: #fff; }
+.contact-section .section-label { color: rgba(201,168,76,0.7); }
+.contact-section .section-body { color: rgba(255,255,255,0.5); margin: 0 auto; }
+.contact-pills { display: flex; gap: 0.75rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap; }
+.contact-pill {
+  border: 1px solid rgba(201,168,76,0.28); border-radius: 2rem;
+  padding: 0.6rem 1.4rem; color: rgba(255,255,255,0.6);
+  font-family: var(--sans); font-weight: 300; font-size: 0.73rem; letter-spacing: 0.04em;
+  text-decoration: none; transition: border-color 0.2s, color 0.2s;
+}
+.contact-pill:hover { border-color: var(--gold); color: var(--gold); }
+
+/* FOOTER */
+footer { background: #0D2B1C; padding: 1.6rem 3rem; display: flex; justify-content: space-between; align-items: center; }
+footer p { font-family: var(--sans); font-weight: 300; font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.22); }
+footer a { font-family: var(--sans); font-weight: 300; font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.3); text-decoration: none; transition: color 0.2s; }
+footer a:hover { color: var(--gold); }
