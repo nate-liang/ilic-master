@@ -483,5 +483,17 @@
     });
   </script>
 
+  <script>
+  // Tell the parent page our full height whenever it changes
+  function reportHeight() {
+    window.parent.postMessage(
+      { ilicheight: document.body.scrollHeight },
+      '*'
+    );
+  }
+  window.addEventListener('load', reportHeight);
+  window.addEventListener('resize', reportHeight);
+  new ResizeObserver(reportHeight).observe(document.body);
+</script>
 </body>
 </html>
