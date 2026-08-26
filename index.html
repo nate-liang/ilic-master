@@ -255,7 +255,7 @@
   </section>
 
   <!-- PRIZES -->
-  <section id="prizes">
+  <!-- <section id="prizes">
     <div class="container">
       <div class="section-label">Prize Pool</div>
       <h2 class="section-title">$30,000 on the line.</h2>
@@ -280,7 +280,7 @@
       </div>
       <div class="prize-total">Total Prize Pool: <span>$30,000</span></div>
     </div>
-  </section>
+  </section> -->
 
   <!-- SPONSORS -->
   <section id="sponsors" style="background: #fff;">
@@ -291,23 +291,35 @@
       <p class="section-body">Sponsors engage directly with participants through judging, keynote addresses, networking, and brand visibility across all Ivy League teams — evaluating candidates through real investment thinking, not resumes.</p>
 
       <div class="sponsor-tiers">
-        <!-- <div class="sponsor-tier">
-          <div class="sponsor-tier-label">Title Sponsor</div>
+        <div class="sponsor-tier">
+          <div class="sponsor-tier-label">Platinum Sponsors</div>
           <div class="sponsor-logo-grid">
-            <div class="sponsor-logo-box sponsor-title placeholder" data-label="Title Sponsor"></div>
+            <div class="sponsor-card">
+              <div class="sponsor-logo-tile sponsor-title">
+                <img src="/coatue.jpg" alt="Coatue Management" />
+              </div>
+              <div class="sponsor-name">Coatue Management</div>
+            </div>
           </div>
-        </div> -->
+        </div>
         <div class="sponsor-tier">
           <div class="sponsor-tier-label">Gold Sponsors</div>
           <div class="sponsor-logo-grid">
-            <div class="sponsor-logo-box sponsor-gold placeholder" data-label="Bridgewater Associates"></div>
-            <div class="sponsor-logo-box sponsor-gold placeholder" data-label="BlackRock"></div>
+            <div class="sponsor-card">
+              <div class="sponsor-logo-tile sponsor-gold">
+                <img src="/surgocap.svg" alt="SurgoCap Partners" />
+              </div>
+              <div class="sponsor-name">SurgoCap Partners</div>
+            </div>
           </div>
         </div>
         <div class="sponsor-tier">
           <div class="sponsor-tier-label">Silver Sponsors</div>
           <div class="sponsor-logo-grid">
-            <div class="sponsor-logo-box sponsor-silver placeholder" data-label="Coming Soon"></div>
+            <div class="sponsor-card">
+              <div class="sponsor-logo-tile sponsor-silver placeholder-tile"></div>
+              <div class="sponsor-name sponsor-name-pending">Coming Soon</div>
+            </div>
           </div>
         </div>
       </div>
@@ -428,7 +440,7 @@
           <div class="team-title">Strategic Advisor</div>
           <div class="team-email">anish_madireddy@brown.edu</div>
         </div>
-      
+
         <div class="team-card team-card-row2-left">
           <div class="team-photo"><img src="nathan.png" alt="Nathan Liang" /></div>
           <div class="team-name">Nathan Liang</div>
@@ -472,13 +484,14 @@
     // Mobile nav toggle
     const hamburger = document.querySelector('.nav-hamburger');
     const navLinks = document.querySelector('.nav-links');
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('open');
-    });
-    // Close menu when a link is tapped
-    navLinks.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => navLinks.classList.remove('open'));
-    });
+    if (hamburger && navLinks) {
+      hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+      });
+      navLinks.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => navLinks.classList.remove('open'));
+      });
+    }
   </script>
 
   <script>
