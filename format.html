@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Format · ILIC</title>
+<title>Format · IIC</title>
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-page="format">
 
 <header class="site-nav">
   <div class="nav-inner">
-    <a href="index.html" class="nav-brand"><img src="hero-logo.png" alt="ILIC" class="nav-logo-img" /></a>
-    <nav class="nav-links">
+    <a href="index.html" class="nav-brand"><img src="assets/iic-transparent.png" alt="Ivy Investment Competition" class="nav-logo-img" /></a>
+    <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="format.html" class="active">Format</a>
+      <a href="format.html" class="active" aria-current="page">Format</a>
       <a href="event.html">Event</a>
       <a href="sponsors.html">Sponsors</a>
       <a href="organizations.html">Organizations</a>
@@ -22,27 +22,28 @@
       <a href="contact.html">Contact</a>
     </nav>
     <a href="contact.html" class="nav-cta">Get in Touch</a>
-    <button class="nav-hamburger" aria-label="Menu">&#9776;</button>
+    <button class="nav-hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-navigation"><span></span><span></span></button>
   </div>
-  <div class="mobile-panel">
+  <nav class="mobile-panel" id="mobile-navigation" aria-label="Mobile navigation">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
-    <a href="format.html" class="active">Format</a>
+    <a href="format.html" class="active" aria-current="page">Format</a>
     <a href="event.html">Event</a>
     <a href="sponsors.html">Sponsors</a>
     <a href="organizations.html">Organizations</a>
     <a href="team.html">Team</a>
     <a href="contact.html">Contact</a>
-  </div>
+  </nav>
 </header>
 
-<main>
+<a class="skip-link" href="#main">Skip to content</a>
+<main id="main">
   <div class="page-wrap">
 
     <section class="split reveal" data-reveal>
       <div class="section-head left">
-        <div class="eyebrow">(Competition Format)</div>
-        <h2 class="headline page-size">Three rounds.<span class="accent">One champion.</span></h2>
+        <div class="section-label">Competition Format</div>
+        <h1 class="headline page-size">Three rounds.<span class="accent">One champion.</span></h1>
         <p class="lede">A three-round format designed to surface the best investment thinking.</p>
       </div>
 
@@ -93,7 +94,7 @@
     </section>
 
     <section class="reveal" data-reveal style="display:flex; flex-direction:column; gap:0.9rem; align-items:center;">
-      <div class="eyebrow">(Evaluation Criteria)</div>
+      <div class="section-label">Evaluation Criteria</div>
       <div class="divided-row">
         <span class="d-item">Depth &amp; Rigor of Research</span>
         <span class="d-item">Originality &amp; Investment Insight</span>
@@ -105,13 +106,13 @@
 
   </div>
 
-  <footer class="site-footer">
-    <p>© 2026 The Ivy League Investment Competition · Brown Investment Group</p>
+  <footer class="site-footer"><div class="footer-brand"><img src="assets/iic-transparent.png" alt="Ivy Investment Competition"><a href="contact.html">Let’s talk investment.<span aria-hidden="true">↗</span></a></div>
+    <p>© 2026 The Ivy Investment Competition · Brown Investment Group</p>
     <div class="footer-links">
       <a href="event.html">Event</a>
       <a href="sponsors.html">Sponsors</a>
       <a href="contact.html">Contact</a>
-      <a href="https://browninvestmentgroup.co" target="_blank">Brown Investment Group ↗</a>
+      <a href="https://browninvestmentgroup.co" target="_blank" rel="noopener noreferrer">Brown Investment Group ↗</a>
     </div>
   </footer>
 </main>

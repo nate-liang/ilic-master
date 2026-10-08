@@ -3,46 +3,47 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Event · ILIC</title>
+<title>Event · IIC</title>
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-page="event">
 
 <header class="site-nav">
   <div class="nav-inner">
-    <a href="index.html" class="nav-brand"><img src="hero-logo.png" alt="ILIC" class="nav-logo-img" /></a>
-    <nav class="nav-links">
+    <a href="index.html" class="nav-brand"><img src="assets/iic-transparent.png" alt="Ivy Investment Competition" class="nav-logo-img" /></a>
+    <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="format.html">Format</a>
-      <a href="event.html" class="active">Event</a>
+      <a href="event.html" class="active" aria-current="page">Event</a>
       <a href="sponsors.html">Sponsors</a>
       <a href="organizations.html">Organizations</a>
       <a href="team.html">Team</a>
       <a href="contact.html">Contact</a>
     </nav>
     <a href="contact.html" class="nav-cta">Get in Touch</a>
-    <button class="nav-hamburger" aria-label="Menu">&#9776;</button>
+    <button class="nav-hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-navigation"><span></span><span></span></button>
   </div>
-  <div class="mobile-panel">
+  <nav class="mobile-panel" id="mobile-navigation" aria-label="Mobile navigation">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="format.html">Format</a>
-    <a href="event.html" class="active">Event</a>
+    <a href="event.html" class="active" aria-current="page">Event</a>
     <a href="sponsors.html">Sponsors</a>
     <a href="organizations.html">Organizations</a>
     <a href="team.html">Team</a>
     <a href="contact.html">Contact</a>
-  </div>
+  </nav>
 </header>
 
-<main>
+<a class="skip-link" href="#main">Skip to content</a>
+<main id="main">
   <div class="page-wrap">
 
     <section class="split reveal" data-reveal>
       <div class="section-head left">
-        <div class="eyebrow">(Event Overview)</div>
-        <h2 class="headline page-size">Two days<span class="accent">in Providence.</span></h2>
+        <div class="section-label">Event Overview</div>
+        <h1 class="headline page-size">Two days<span class="accent">in Providence.</span></h1>
         <p class="lede">All dates below are tentative.</p>
       </div>
 
@@ -58,7 +59,7 @@
                 <div class="mini-sched">
                   <div class="mini-sched-item"><div class="mini-sched-time">12:00 PM</div><div class="mini-sched-desc">8 teams check in, one per Ivy League school</div></div>
                   <div class="mini-sched-item"><div class="mini-sched-time">1:00 PM</div><div class="mini-sched-desc">Hotel check-in</div></div>
-                  <div class="mini-sched-item"><div class="mini-sched-time">TBD</div><div class="mini-sched-desc">Keynote speaker: BlackRock CFO (tentative)</div></div>
+                  <div class="mini-sched-item"><div class="mini-sched-time">2:00 PM</div><div class="mini-sched-desc">Keynote speaker: Joanna Albright (COO of Coatue Management)</div></div>
                   <div class="mini-sched-item"><div class="mini-sched-time">3:00 PM</div><div class="mini-sched-desc">Round II: Preliminary pitches, 20 mins per pitch</div></div>
                   <div class="mini-sched-item"><div class="mini-sched-time">Evening</div><div class="mini-sched-desc">Cocktails, small bites &amp; networking reception</div></div>
                   <div class="mini-sched-item"><div class="mini-sched-time">Night</div><div class="mini-sched-desc">Results announced, 4 teams advance to finals</div></div>
@@ -90,13 +91,13 @@
 
   </div>
 
-  <footer class="site-footer">
-    <p>© 2026 The Ivy League Investment Competition · Brown Investment Group</p>
+  <footer class="site-footer"><div class="footer-brand"><img src="assets/iic-transparent.png" alt="Ivy Investment Competition"><a href="contact.html">Let’s talk investment.<span aria-hidden="true">↗</span></a></div>
+    <p>© 2026 The Ivy Investment Competition · Brown Investment Group</p>
     <div class="footer-links">
       <a href="format.html">Format</a>
       <a href="sponsors.html">Sponsors</a>
       <a href="contact.html">Contact</a>
-      <a href="https://browninvestmentgroup.co" target="_blank">Brown Investment Group ↗</a>
+      <a href="https://browninvestmentgroup.co" target="_blank" rel="noopener noreferrer">Brown Investment Group ↗</a>
     </div>
   </footer>
 </main>

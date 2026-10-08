@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>About · ILIC</title>
+<title>About · IIC</title>
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-page="about">
 
 <header class="site-nav">
   <div class="nav-inner">
-    <a href="index.html" class="nav-brand"><img src="hero-logo.png" alt="ILIC" class="nav-logo-img" /></a>
-    <nav class="nav-links">
+    <a href="index.html" class="nav-brand"><img src="assets/iic-transparent.png" alt="Ivy Investment Competition" class="nav-logo-img" /></a>
+    <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html">Home</a>
-      <a href="about.html" class="active">About</a>
+      <a href="about.html" class="active" aria-current="page">About</a>
       <a href="format.html">Format</a>
       <a href="event.html">Event</a>
       <a href="sponsors.html">Sponsors</a>
@@ -22,33 +22,34 @@
       <a href="contact.html">Contact</a>
     </nav>
     <a href="contact.html" class="nav-cta">Get in Touch</a>
-    <button class="nav-hamburger" aria-label="Menu">&#9776;</button>
+    <button class="nav-hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-navigation"><span></span><span></span></button>
   </div>
-  <div class="mobile-panel">
+  <nav class="mobile-panel" id="mobile-navigation" aria-label="Mobile navigation">
     <a href="index.html">Home</a>
-    <a href="about.html" class="active">About</a>
+    <a href="about.html" class="active" aria-current="page">About</a>
     <a href="format.html">Format</a>
     <a href="event.html">Event</a>
     <a href="sponsors.html">Sponsors</a>
     <a href="organizations.html">Organizations</a>
     <a href="team.html">Team</a>
     <a href="contact.html">Contact</a>
-  </div>
+  </nav>
 </header>
 
-<main>
+<a class="skip-link" href="#main">Skip to content</a>
+<main id="main">
   <div class="page-wrap">
 
     <div class="section-head reveal" data-reveal>
-      <div class="eyebrow">(About ILIC)</div>
-      <h2 class="headline page-size">The premier undergraduate<span class="accent">stock pitch competition in the Ivy League.</span></h2>
+      <div class="section-label">About IIC</div>
+      <h1 class="headline page-size">The premier undergraduate<span class="accent">stock pitch competition in the Ivy League.</span></h1>
     </div>
 
     <section class="bento reveal" data-reveal>
       <div class="card card-pad bento-main">
         <div class="bento-tag">Competition</div>
         <h3>Institutional-quality investment ideas, judged by buy-side professionals.</h3>
-        <p>The Brown Investment Group is launching the Ivy League Investment Competition, a first-of-its-kind, invite-only undergraduate equity research competition bringing together the top investment talent across all eight Ivy League institutions. ILIC will convene 8 elite teams to present institutional-quality investment ideas to a panel of leading investors, hedge funds, and asset managers.</p>
+        <p>The Brown Investment Group is launching the Ivy Investment Competition, a first-of-its-kind, invite-only undergraduate equity research competition bringing together the top investment talent across all eight Ivy League institutions. IIC will convene 8 elite teams to present institutional-quality investment ideas to a panel of leading investors, hedge funds, and asset managers.</p>
       </div>
 
       <div class="bento-stack">
@@ -72,9 +73,9 @@
 
     <section class="reveal" data-reveal style="display:flex; flex-direction:column; gap:1.5rem;">
       <div class="section-head" style="max-width:640px;">
-        <div class="eyebrow">(Team Eligibility)</div>
+        <div class="section-label">Team Eligibility</div>
         <h2 class="headline page-size" style="font-size: clamp(1.4rem, 2.6vw, 1.9rem);">Who can compete.</h2>
-        <p class="lede">ILIC aggregates the top undergraduate investors across all Ivy League schools into a single, high-intensity environment: leaders of student-run investment funds, top performers in selective investment clubs, and candidates targeting buy-side roles. Teams are selected by invitation only.</p>
+        <p class="lede">IIC aggregates the top undergraduate investors across all Ivy League schools into a single, high-intensity environment: leaders of student-run investment funds, top performers in selective investment clubs, and candidates targeting buy-side roles. Teams are selected by invitation only.</p>
       </div>
 
       <div class="grid-4">
@@ -87,13 +88,13 @@
 
   </div>
 
-  <footer class="site-footer">
-    <p>© 2026 The Ivy League Investment Competition · Brown Investment Group</p>
+  <footer class="site-footer"><div class="footer-brand"><img src="assets/iic-transparent.png" alt="Ivy Investment Competition"><a href="contact.html">Let’s talk investment.<span aria-hidden="true">↗</span></a></div>
+    <p>© 2026 The Ivy Investment Competition · Brown Investment Group</p>
     <div class="footer-links">
       <a href="format.html">Format</a>
       <a href="sponsors.html">Sponsors</a>
       <a href="contact.html">Contact</a>
-      <a href="https://browninvestmentgroup.co" target="_blank">Brown Investment Group ↗</a>
+      <a href="https://browninvestmentgroup.co" target="_blank" rel="noopener noreferrer">Brown Investment Group ↗</a>
     </div>
   </footer>
 </main>
