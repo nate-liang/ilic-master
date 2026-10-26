@@ -5,6 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Event · IIC</title>
 <link rel="stylesheet" href="styles.css" />
+
+<style>
+body[data-page="event"] .mini-sched-item { grid-template-columns:130px minmax(0,1fr); gap:22px; padding:18px 0; }
+body[data-page="event"] .mini-sched-time { font-size:12px; line-height:1.6; }
+.schedule-title,.schedule-note,.schedule-venue,.schedule-address { display:block; }
+.schedule-title { color:var(--ink); font-weight:500; line-height:1.5; }
+.schedule-note { margin-top:4px; }
+.schedule-venue { margin-top:9px; color:var(--ivy-mid); font-size:12px; font-weight:500; }
+.schedule-address { margin-top:2px; font-size:12px; line-height:1.6; }
+@media(max-width:600px) {
+ body[data-page="event"] .mini-sched-item { grid-template-columns:1fr; gap:7px; }
+ body[data-page="event"] .mini-sched-time { color:var(--ivy-mid); }
+}
+</style>
 </head>
 <body data-page="event">
 
@@ -44,25 +58,25 @@
       <div class="section-head left">
         <div class="section-label">Event Overview</div>
         <h1 class="headline page-size">Two days<span class="accent">in Providence.</span></h1>
-        <p class="lede">All dates below are tentative.</p>
+        <p class="lede">November 5–6, 2026 · Brown University · Providence, RI. Explore the full itinerary, including venues and addresses, below.</p>
       </div>
 
       <div class="acc-list">
         <div class="acc-row open">
           <button class="acc-header" type="button">
-            <span class="acc-title"><span class="acc-serif">Day 1</span><span class="acc-sub">Thursday, Nov 5</span></span>
+            <span class="acc-title"><span class="acc-serif">Day 1</span><span class="acc-sub">Thursday, November 5, 2026</span></span>
             <span class="acc-icon">+</span>
           </button>
           <div class="acc-panel">
             <div class="acc-panel-inner">
               <div class="acc-panel-content">
                 <div class="mini-sched">
-                  <div class="mini-sched-item"><div class="mini-sched-time">12:00 PM</div><div class="mini-sched-desc">8 teams check in, one per Ivy League school</div></div>
-                  <div class="mini-sched-item"><div class="mini-sched-time">1:00 PM</div><div class="mini-sched-desc">Hotel check-in</div></div>
-                  <div class="mini-sched-item"><div class="mini-sched-time">2:00 PM</div><div class="mini-sched-desc">Fireside Chat with Joanna Albright (COO of Coatue Management) & Joshua Kennedy (Deputy CIO of Brown University)</div></div>
-                  <div class="mini-sched-item"><div class="mini-sched-time">3:00 PM</div><div class="mini-sched-desc">Round II: Preliminary pitches, 20 mins per pitch</div></div>
-                  <div class="mini-sched-item"><div class="mini-sched-time">Evening</div><div class="mini-sched-desc">Cocktails, small bites &amp; networking reception</div></div>
-                  <div class="mini-sched-item"><div class="mini-sched-time">Night</div><div class="mini-sched-desc">Results announced, 4 teams advance to finals</div></div>
+                  <div class="mini-sched-item"><div class="mini-sched-time">12:00 PM</div><div class="mini-sched-desc"><strong class="schedule-title">Hotel Check-In</strong><span class="schedule-venue">The Graduate</span><span class="schedule-address">11 Dorrance Street, RI 02903</span></div></div>
+                  <div class="mini-sched-item"><div class="mini-sched-time">1:30–2:30 PM</div><div class="mini-sched-desc"><strong class="schedule-title">Welcome Lunch</strong><span class="schedule-note">Recruiter tables present</span><span class="schedule-venue">Petteruti Lounge, Campus Center</span><span class="schedule-address">75 Waterman Street, RI 02912</span></div></div>
+                  <div class="mini-sched-item"><div class="mini-sched-time">2:30 PM</div><div class="mini-sched-desc"><strong class="schedule-title">Fireside Chat: Joanna Albright, COO of Coatue Management</strong><span class="schedule-note">Moderated by Joshua Kennedy, Deputy CIO of Brown University</span><span class="schedule-venue">Petteruti Lounge, Campus Center</span><span class="schedule-address">75 Waterman Street, RI 02912</span></div></div>
+                  <div class="mini-sched-item"><div class="mini-sched-time">4:00–6:00 PM</div><div class="mini-sched-desc"><strong class="schedule-title">Round II: Preliminary Pitches</strong><span class="schedule-note">8 teams pitch across 2 rooms</span><span class="schedule-venue">Friedman Hall, Rooms 101 &amp; 201</span><span class="schedule-address">90 George Street, RI 02912</span></div></div>
+                  <div class="mini-sched-item"><div class="mini-sched-time">6:00–7:30 PM</div><div class="mini-sched-desc"><strong class="schedule-title">Dinner</strong><span class="schedule-note">Reimbursed dinner</span></div></div>
+                  <div class="mini-sched-item"><div class="mini-sched-time">7:30–9:30 PM</div><div class="mini-sched-desc"><strong class="schedule-title">Cocktail Reception &amp; Recruiter Event</strong><span class="schedule-venue">Brown Faculty Club</span><span class="schedule-address">1 Bannister Street, RI 02912</span></div></div>
                 </div>
               </div>
             </div>
@@ -70,17 +84,16 @@
         </div>
         <div class="acc-row open">
           <button class="acc-header" type="button">
-            <span class="acc-title"><span class="acc-serif">Day 2</span><span class="acc-sub">Friday, Nov 6</span></span>
+            <span class="acc-title"><span class="acc-serif">Day 2</span><span class="acc-sub">Friday, November 6, 2026</span></span>
             <span class="acc-icon">+</span>
           </button>
           <div class="acc-panel">
             <div class="acc-panel-inner">
               <div class="acc-panel-content">
                 <div class="mini-sched">
-                  <div class="mini-sched-item"><div class="mini-sched-time">10:00 AM</div><div class="mini-sched-desc">Round III Finals: 4 teams, 30 minutes each</div></div>
-                  <div class="mini-sched-item"><div class="mini-sched-time">12:00 PM</div><div class="mini-sched-desc">Final lunch with all participants and judges</div></div>
-                  <div class="mini-sched-item"><div class="mini-sched-time">1:00 PM</div><div class="mini-sched-desc">Results announced &amp; prizes awarded</div></div>
-                  <div class="mini-sched-item"><div class="mini-sched-time">Afternoon</div><div class="mini-sched-desc">Awards ceremony</div></div>
+                  <div class="mini-sched-item"><div class="mini-sched-time">9:00 AM</div><div class="mini-sched-desc"><strong class="schedule-title">Hotel Check-Out</strong><span class="schedule-venue">The Graduate</span><span class="schedule-address">11 Dorrance Street, RI 02903</span></div></div>
+                  <div class="mini-sched-item"><div class="mini-sched-time">10:00 AM–12:00 PM</div><div class="mini-sched-desc"><strong class="schedule-title">Round III: Final Pitches</strong><span class="schedule-note">4 finalist teams present to the judge panel</span><span class="schedule-venue">Brown Investment Office</span><span class="schedule-address">1 Citizens Plaza, 4th Floor, Suite 410, RI 02903</span></div></div>
+                  <div class="mini-sched-item"><div class="mini-sched-time">12:00–2:00 PM</div><div class="mini-sched-desc"><strong class="schedule-title">Final Lunch &amp; Winner Announcement</strong><span class="schedule-venue">Café Nuovo</span><span class="schedule-address">1 Citizens Plaza, RI 02903</span></div></div>
                 </div>
               </div>
             </div>
