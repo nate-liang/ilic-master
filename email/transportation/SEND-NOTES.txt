@@ -1,0 +1,65 @@
+IIC TRANSPORTATION EMAILS — NOVEMBER 5–6, 2026
+
+Five local drafts only. No emails have been sent. No tickets have been bought or changed.
+The HTML is compact, uses Inter with email-safe fallbacks, has no logo or large hero, and uses itinerary cards. Carrier eTickets must be supplied separately; itinerary cards are not valid for boarding.
+
+ATTACHMENTS TO ADD BEFORE SENDING
+
+PRINCETON
+Outbound: Jiang Timothy 202610292015110848.pdf
+Gmail: https://mail.google.com/mail/u/0/#all/1a19dcb52f556572
+Thursday November 5: Northeast Regional 1150, Trenton 5:45 AM to Providence 10:48 AM.
+Return: Jiang Timothy 202610292028560801.pdf
+Gmail: https://mail.google.com/mail/u/0/#all/1a19dca6daa17ccd
+Friday November 6: Northeast Regional 1165, Providence 3:55 PM to Princeton Junction 8:59 PM.
+IMPORTANT: Different outbound and return stations are deliberate in the drafts because that is what the booked tickets show.
+
+PENN
+Liu Ruiqi 202610292055200417.pdf
+Gmail: https://mail.google.com/mail/u/0/#all/1a19dca2d04d1c69
+Thursday November 5: Northeast Regional 1150, Philadelphia 30th Street 5:15 AM to Providence 10:48 AM.
+Friday November 6: Northeast Regional 1135, Providence 2:19 PM to Philadelphia 30th Street 7:32 PM.
+
+YALE
+Khan Mariam 202610292033580226.pdf (three travelers)
+Gmail: https://mail.google.com/mail/u/0/#all/1a19dca5623d8502
+Thursday November 5: Northeast Regional 1150, New Haven Union Station 9:01 AM to Providence 10:48 AM.
+Nagarajan Dhruv 202610292038280972.pdf (separate traveler)
+Gmail: https://mail.google.com/mail/u/0/#all/1a19dca452210c1f
+Friday November 6: Northeast Regional 66, New Haven Union Station 7:26 AM to Providence 9:15 AM.
+Both reservations return Friday November 6: Northeast Regional 1135, Providence 2:19 PM to New Haven 4:02 PM.
+IMPORTANT: Dhruv's outbound booking is Friday, not Thursday. The draft explicitly distinguishes this; check that the Friday arrival is intended before sending.
+
+DARTMOUTH
+6ae3ab653638670b24a80c13 (1).pdf (eight pages, four travelers, both directions)
+Gmail: https://mail.google.com/mail/u/0/#all/1a19dbd4bfdec513
+Thursday November 5: Dartmouth Coach trip 713, Hanover 7:40 AM to Boston South Station 10:25 AM.
+MBTA alternatives: 6011, South Station 10:35 AM to Providence 11:45 AM; or 6013, South Station 11:20 AM to Providence 12:35 PM.
+Both options are included at the user's request. The first gives only ten minutes to transfer and is conditional on having enough time; the second is the safer option if the bus is delayed.
+Friday November 6: MBTA 6026, Providence 2:05 PM to South Station 3:21 PM.
+Dartmouth Coach trip 722, South Station 4:30 PM to Hanover 7:30 PM.
+Coach tickets are purchased, not reserved seats; receipt states first come, first board and arrival 30 minutes before departure.
+MBTA tickets are not booked and are to be purchased separately. No reimbursement mechanics have been invented.
+
+HARVARD
+No booked tickets, as instructed by the organizer.
+Thursday November 5: recommended MBTA 6009, South Station 9:25 AM to Providence 10:34 AM.
+Friday November 6: recommended MBTA 6028, Providence 2:56 PM to South Station 4:11 PM.
+MBTA tickets to be purchased separately; no reserved seats claimed.
+
+OFFICIAL MBTA SOURCES
+Outbound Nov 5 (read directly on the official site):
+https://www.mbta.com/schedules/CR-Providence/timetable?date=2026-11-05
+Return Nov 6 (official construction PDF, read in full):
+https://cdn.mbta.com/sites/default/files/media/route_pdfs/2026-11-6-cr-providence-stoughton-line-construction-schedule.pdf
+The Nov 6 PDF explicitly temporarily replaces the Oct 26 schedule on November 6 and 9. It overrides the web table: train 6026 leaves Providence at 2:05 PM, not 2:10 PM; 6028 reaches South Station at 4:11 PM, not 4:09 PM.
+
+HOTEL
+The Graduate, 11 Dorrance Street, Providence, RI 02903.
+Check-in Thursday November 5 at noon; check-out Friday November 6 at 9 AM, from event.html in the organizer's website repository.
+Two rooms per team, with two participants per room, per organizer's instruction.
+Dartmouth's later MBTA option reaches Providence after noon; draft notes this and asks them to let organizers know which connection they take.
+
+TIMING
+Closing lunch is scheduled 12–2 PM. Yale/Penn need to leave before it ends to reach their 2:19 PM train with station arrival at 1:49 PM. Dartmouth should leave around 1:25 PM for the 2:05 PM train. These early departures are explicitly noted.
+All times are Eastern Time. Participants are reminded to bring government ID and student ID.
