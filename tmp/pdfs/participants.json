@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Frederick Bloom",
+    "year": "2027",
+    "school": "Brown University",
+    "source": "Round 1",
+    "team": "IVY-16"
+  },
+  {
+    "name": "Kyle Chitty",
+    "year": "2029",
+    "school": "Brown University",
+    "source": "Round 1",
+    "team": "IVY-16"
+  },
+  {
+    "name": "Sophie Rukin",
+    "year": "2028",
+    "school": "Brown University",
+    "source": "Round 1",
+    "team": "IVY-16"
+  },
+  {
+    "name": "Luke Wilkinson",
+    "year": "2027",
+    "school": "Brown University",
+    "source": "Round 1",
+    "team": "IVY-16"
+  },
+  {
+    "name": "Madeline Feldner",
+    "year": "2027",
+    "school": "Columbia University",
+    "source": "Round 1",
+    "team": "IVY-09"
+  },
+  {
+    "name": "Aditya Nallaparaju",
+    "year": "2028",
+    "school": "Columbia University",
+    "source": "Round 1",
+    "team": "IVY-09"
+  },
+  {
+    "name": "Jonathan Pan",
+    "year": "2029",
+    "school": "Columbia University",
+    "source": "Round 1",
+    "team": "IVY-09"
+  },
+  {
+    "name": "Lauren Tse",
+    "year": "2029",
+    "school": "Columbia University",
+    "source": "Round 1",
+    "team": "IVY-09"
+  },
+  {
+    "name": "Siddharth Godbole",
+    "year": "2029",
+    "school": "Cornell University",
+    "source": "Round 1",
+    "team": "IVY-07"
+  },
+  {
+    "name": "Haiar Isliamov",
+    "year": "2028",
+    "school": "Cornell University",
+    "source": "Round 1",
+    "team": "IVY-07"
+  },
+  {
+    "name": "Sasha Lee",
+    "year": "2028",
+    "school": "Cornell University",
+    "source": "Round 1",
+    "team": "IVY-07"
+  },
+  {
+    "name": "Yashwin Sajja",
+    "year": "2028",
+    "school": "Cornell University",
+    "source": "Round 1",
+    "team": "IVY-07"
+  },
+  {
+    "name": "Emma Bell",
+    "year": "2029",
+    "school": "Dartmouth College",
+    "source": "Green Outreach",
+    "yearSource": "Dartmouth class-year email suffix"
+  },
+  {
+    "name": "David Sheng",
+    "year": "2029",
+    "school": "Dartmouth College",
+    "source": "Round 1",
+    "team": "IVY-11"
+  },
+  {
+    "name": "Taylor Wen",
+    "year": "2027",
+    "school": "Dartmouth College",
+    "source": "Round 1",
+    "team": "IVY-11"
+  },
+  {
+    "name": "Amanda Yeung",
+    "year": "2029",
+    "school": "Dartmouth College",
+    "source": "Round 1",
+    "team": "IVY-11"
+  },
+  {
+    "name": "Neil Behl",
+    "year": "2027",
+    "school": "Harvard University",
+    "source": "Round 1",
+    "team": "IVY-12"
+  },
+  {
+    "name": "Daniella Biblin",
+    "year": "2029",
+    "school": "Harvard University",
+    "source": "Round 1",
+    "team": "IVY-12"
+  },
+  {
+    "name": "Leo Byrne",
+    "year": "2028",
+    "school": "Harvard University",
+    "source": "Round 1",
+    "team": "IVY-12"
+  },
+  {
+    "name": "Nathaniel Shin",
+    "year": "2027",
+    "school": "Harvard University",
+    "source": "Round 1",
+    "team": "IVY-12"
+  },
+  {
+    "name": "Albert Caesar",
+    "year": "2027",
+    "school": "Princeton University",
+    "source": "Round 1",
+    "team": "IVY-06"
+  },
+  {
+    "name": "Ralitsa Hovanessian",
+    "year": "2028",
+    "school": "Princeton University",
+    "source": "Round 1",
+    "team": "IVY-06"
+  },
+  {
+    "name": "Timothy Jiang",
+    "year": "2029",
+    "school": "Princeton University",
+    "source": "Round 1",
+    "team": "IVY-06"
+  },
+  {
+    "name": "William Kim",
+    "year": "2027",
+    "school": "Princeton University",
+    "source": "Round 1",
+    "team": "IVY-06"
+  },
+  {
+    "name": "Andy Cho",
+    "year": "2027",
+    "school": "University of Pennsylvania",
+    "source": "Round 1",
+    "team": "IVY-03"
+  },
+  {
+    "name": "Ruiqi Liu",
+    "year": "2029",
+    "school": "University of Pennsylvania",
+    "source": "Round 1",
+    "team": "IVY-03"
+  },
+  {
+    "name": "Joshua Ng",
+    "year": "2029",
+    "school": "University of Pennsylvania",
+    "source": "Round 1",
+    "team": "IVY-03"
+  },
+  {
+    "name": "Amy Zhang",
+    "year": "2028",
+    "school": "University of Pennsylvania",
+    "source": "Round 1",
+    "team": "IVY-03"
+  },
+  {
+    "name": "Jack Gordon",
+    "year": "2028",
+    "school": "Yale University",
+    "source": "Round 1",
+    "team": "IVY-05"
+  },
+  {
+    "name": "Pranav Karthikeyan",
+    "year": "2029",
+    "school": "Yale University",
+    "source": "Round 1",
+    "team": "IVY-05"
+  },
+  {
+    "name": "Mariam Khan",
+    "year": "2028",
+    "school": "Yale University",
+    "source": "Round 1",
+    "team": "IVY-05"
+  },
+  {
+    "name": "Dhruv Nagarajan",
+    "year": "2029",
+    "school": "Yale University",
+    "source": "Round 1",
+    "team": "IVY-05"
+  }
+]

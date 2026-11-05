@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Vincent Daly",
+    "school": "Cornell University",
+    "year": "2028"
+  },
+  {
+    "name": "Marvin Zhang",
+    "school": "Cornell University",
+    "year": "2027"
+  },
+  {
+    "name": "Ayush Bobra",
+    "school": "Princeton University",
+    "year": "2028"
+  },
+  {
+    "name": "Connor Zou",
+    "school": "Columbia University",
+    "year": "2029"
+  },
+  {
+    "name": "Disha Varkala",
+    "school": "Columbia University",
+    "year": "2029"
+  },
+  {
+    "name": "Luke Kim",
+    "school": "University of Pennsylvania",
+    "year": "2029"
+  },
+  {
+    "name": "Will Paik",
+    "school": "Cornell University",
+    "year": "2027"
+  },
+  {
+    "name": "Mannat Shah",
+    "year": "2027",
+    "school": "Franklin & Marshall College"
+  }
+]

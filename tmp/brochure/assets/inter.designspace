@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="500" default="400"/>
+  </axes>
+  <sources>
+    <source filename="font-2.ttf" name="400">
+      <lib copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="font-3.ttf" name="500">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+      </location>
+    </source>
+  </sources>
+</designspace>
